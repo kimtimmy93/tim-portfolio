@@ -512,7 +512,7 @@
 		@include vendor('transition', 'background-color 0.35s ease-in-out');
 
 		&:hover {
-			background-color: rgba(255, 255, 255, 0.3);
+			background-color: rgba(255, 255, 255, 0.7);
 		}
 
 		&:active {
@@ -747,9 +747,9 @@
 					color: #fff;
 					border-color: inherit;
 
-					&:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
-					}
+					// &:hover {
+					// 	border-bottom-color: rgba(255, 255, 255, 0);
+					// }
 				}
 			}
 
