@@ -120,6 +120,11 @@ const IndexPage = () => (
                 <header>
                   <h3>Whack-A-Mole</h3>
                   <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
+                  <h4>Technologies Used</h4>
+                    <p>
+                    HTML5, CSS3, jQuery, JavaScript
+                    </p>
+               
                 </header>
               </article>
 
@@ -129,28 +134,45 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>MIXR</h3>
+                  <p>Web application designed for musicians, artists, and producers to come together to create, connect, and collaborate on projects.</p>
+                  <h4>Technologies Used</h4>
+                    <p>
+                    HTML5, CSS3, Bootstrap, Node.js, Express.js, Embedded Javascript(EJS), MongoDB
+                    </p>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
+
               <article className="item">
-                <a href="https://localhost0003.herokuapp.com/" target="_blank" className="image fit">
+                <a href="https://local-la.herokuapp.com/" target="_blank" className="image fit">
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>LOCALA</h3>
+                    <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
+                    </p>
+                  <h4>Technologies Used</h4>
+                  <p>Technologies used: React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" target="_blank" className="image fit">
+
+                <a href="https://localhost0003.herokuapp.com/" target="_blank" className="image fit">
                   <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>LOCAL:HOST</h3>
+                  <p>Local:Host is a full-stack MERN application created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage
+
+                    </p>
+                  <h4>Technologies Used</h4>
+                  <p>React.js, Node.js, Express.js, MongoDB, Firebase</p>
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic6} alt="" />
@@ -167,7 +189,7 @@ const IndexPage = () => (
                   <h3>Orci Convallis</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
