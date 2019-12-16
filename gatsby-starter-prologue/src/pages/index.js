@@ -201,16 +201,10 @@ const IndexPage = () => (
           <header>
             <h2>Contact</h2>
           </header>
-
-          <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
-          </p>
-
-          <form method="post" action="mailto:timhkim0623@gmail.com">
+          {/* <p>
+           
+          </p> */}
+          {/* <form method="post" action="mailto:timhkim0623@gmail.com">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -225,7 +219,7 @@ const IndexPage = () => (
                 <input type="submit" value="Send Message" />
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </section>
     </div>
